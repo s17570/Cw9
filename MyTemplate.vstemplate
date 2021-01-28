@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Cw9</Name>
+    <Description>
+    </Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Cw9</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="LinqConsoleApp.csproj" File="LinqConsoleApp.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Dept.cs">Dept.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Emp.cs">Emp.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LinqSamples.cs">LinqSamples.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
